@@ -1,7 +1,51 @@
 button {
     background-color: blueviolet;
-    border: 4px black thick;
+    border: 12px burlywood groove;
     color: gold;
     text-align: left;    
     font-size: 22px;
+    padding: 12px;
+    text-align: left;
+}
+
+header{
+
+background-color: goldenrod;
+
+}
+
+footer{
+    background-color:indigo;
+    text-align: center;
+}
+
+header p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 110%;
+    border: 12px purple groove;
+}
+
+h1.foo {
+    text-align: center;
+    border: 12px purple groove;
+}
+
+h1#new-point{
+    text-align: center;
+}
+
+img#list-button-utah{
+    width: 50%;
+    float: left;
+    
+}
+
+main{
+    background-color: greenyellow;
+}
+
+.byline{
+    font-style: italic;
+    font-size: 100%;
 }
