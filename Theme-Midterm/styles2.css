@@ -1,0 +1,114 @@
+aside {
+    background-color:powderblue;
+    border: 15px Yellowgreen ridge;
+    float: right;
+    height: 50%;
+    width: 500px;
+    padding: 5px;
+    margin: 8px;
+    margin-right: 16px; 
+}
+
+body {
+    background-color: indianred;
+}
+
+.byline {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+
+
+.figcaption {
+  margin-left: -4%;     
+}
+
+#froFig {
+    bottom: 40%;
+}
+
+footer {
+    background-color: aquamarine;
+    text-align: center;
+    margin-top: 100px;
+}
+
+img {
+    padding: 0px;
+    width: 30%;
+    height: 30%;
+    
+    border: 25px purple ridge;
+    
+    margin-left: 0%;
+} 
+
+#sefu {
+    padding: 0px;
+    width: 30%;
+    height: 30%;
+    margin-left: -4%;
+    border: 5px purple ridge;
+}
+
+.locs, .Lauryn, .Braids {
+    padding: 0px;
+    width: 30%;
+    height: 30%;
+    margin-left: -4%;
+    border: 5px purple ridge;
+}
+
+main {
+    background-color: grey;
+}
+
+
+
+nav {        
+    background-color: cornflowerblue;
+    border: 5px green ridge;
+    border-radius: 500px;
+    padding: 8px;
+    margin: 22px 22px;
+    text-align: center;
+}
+
+
+
+#weaveID {
+    float: left;
+    width: 300px;
+}
+
+header{
+    background-color: aquamarine;
+}
+
+header p {
+    font-weight: bold;
+        color: black;
+}
+.h1Class  {
+    background-color: aquamarine;
+}
+
+    #weaveP {
+        background-color: cornflowerblue;
+    border: 5px green ridge;
+    border-radius: 500px;
+    padding: 8px;
+    margin: 22px 22px;
+    text-align: center;
+    }
+
+#weavePage {
+    padding: 0px;
+    width: 30%;
+    height: 30%;
+    margin-left: -4%;
+    border: 5px purple ridge;
+}

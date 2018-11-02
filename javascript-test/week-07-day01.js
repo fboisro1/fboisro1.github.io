@@ -11,7 +11,7 @@ console.log(num + numberString);
 console.log(typeof num);
 
 /*when you want to compare use '===' can be applied to T/F coding situations.*/
-if(rain=== true) {
+if (rain === true) {
     console.log('Go to the gym.');
 } else {
     console.log('Go for a walk.');
@@ -26,22 +26,22 @@ console.log('MODULUS TEST FOR EVEN.', num % 2);
 console.log('MODULUS TEST FOR EVEN.', (num % 2) === 0);
 
 function evenOrOdd(value) {
-    if((value % 2) === 0){
+    if ((value % 2) === 0) {
         console.log('The number ' + value + ' is even.');
-        
+
     } else {
         console.log('The number ' + value + ' is even.');
     }
-    
+
 }
 evenOrOdd(4);
 evenOrOdd(15);
 
 
 console.log('MODULUS TEST FOR EVEN.', (num % 2) === 0);
-if((num % 2) === 0){
+if ((num % 2) === 0) {
     console.log('The number ' + num + ' is even.');
-    
+
 } else {
     console.log('The number ' + num + ' is even.');
 }
@@ -50,7 +50,7 @@ if((num % 2) === 0){
 
 var app = {
 
-    isEven: function(input) {
+    isEven: function (input) {
         if (input % 2 === 0) {
             console.log('Your input of ' + input + ' is even');
         } else {
