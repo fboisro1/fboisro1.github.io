@@ -19,7 +19,8 @@ function divider(title) {
 const person = {
     firstName: 'Sefu',
     lastName: 'Kaba',
-    fullName: function() {'use strict';
+    fullName: function () {
+        'use strict';
         return this.firstName + ' ' + this.lastName;
     }
 };
@@ -29,23 +30,23 @@ const person = {
 const calculator = {
     operand01: 4,
     operand02: 4,
-    add: function(){
+    add: function () {
         'use strict';
         return this.operand01 + this.operand02;
-        
+
     },
-    
-    multiply: function() {
+
+    multiply: function () {
         'use strict';
         return this.operand01 * this.operand02;
     },
 
-    divide: function(){
+    divide: function () {
         'use strict';
         return this.operand01 / this.operand02;
     }
 
-    
+
 };
 
 
@@ -59,7 +60,7 @@ console.log(person.lastName);
 console.log(person.fullName());
 divider('Calculator');
 console.log('operand01 =', calculator.operand01);
-console.log('operand01 =', calculator.operand02);
+console.log('operand02 =', calculator.operand02);
 console.log('Add =', calculator.add());
 console.log('Multiply =', calculator.multiply());
 console.log('Divide =', calculator.divide());
