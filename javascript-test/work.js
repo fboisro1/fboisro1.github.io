@@ -24,7 +24,6 @@ const person = {
         return this.firstName + ' ' + this.lastName;
     }
 };
-
 //Calculator
 
 const calculator = {
@@ -68,4 +67,4 @@ console.log('Divide =', calculator.divide());
 //console.log(calculator.operand02);
 //console.log(calculator.add());
 //console.log(calculator.multiply());
-//console.log(calculator.divide());
+//console.log(calculator.divide());  
