@@ -10,7 +10,9 @@ aside {
 }
 
 body {
-    background-color: indianred;
+    background-color: orangered;
+    background-image: url('../Theme-Midterm/Images/images.jpg');
+    
 }
 
 .byline {
@@ -21,24 +23,12 @@ body {
 
 
 
-.figcaption {
-  margin-left: -4%;     
-}
-
-#froFig {
-    bottom: 40%;
-}
-
-footer {
-    background-color: aquamarine;
-    text-align: center;
-    margin-top: 100px;
-}
-
+/*KEEP*/
 img {
     padding: 0px;
     width: 30%;
     height: 30%;
+    border-radius: 500px;
     
     border: 25px purple ridge;
     
@@ -50,10 +40,12 @@ img {
     width: 30%;
     height: 30%;
     margin-left: -4%;
+    border-radius: 500px;
     border: 5px purple ridge;
 }
 
-.locs, .Lauryn, .Braids {
+
+.locs,.Lauryn, .Braids {
     padding: 0px;
     width: 30%;
     height: 30%;
@@ -63,9 +55,20 @@ img {
 
 main {
    /* background-color: grey; */
-   background-color: brown;
+   background-color: aquamarine;
 }
 
+
+header{
+    /*background-color: aquamarine;*/
+    background-color: rosybrown
+}
+/*KEEP*/
+footer {
+    background-color: teal;
+    text-align: center;
+    margin-top: 100px;
+}
 
 
 nav {        
@@ -84,10 +87,7 @@ nav {
     width: 300px;
 }
 
-header{
-    /*background-color: aquamarine;*/
-    background-color: rosybrown
-}
+
 
 header p {
     font-weight: bold;
