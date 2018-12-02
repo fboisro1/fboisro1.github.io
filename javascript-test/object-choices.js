@@ -1,8 +1,12 @@
+window.onload = () => {
+
 const simpleObject = {
-    sayName: 'Simple Objects.',
+    sayName: 'Simple Object.',
     dynamicMethod: 'Dynamic Method'
 
-};
+},
+
+dynamicMethod: function (){}
 
 simpleObject.fullName = function () {
     return this.sayName;
@@ -15,8 +19,7 @@ simpleObject.newMethod = function (){
 console.log(simpleObject.sayName);
 console.log(simpleObject.dynamicMethod);
 
-
-
+}
 
 /* Outside the object declaration, use dot notation to add another method called dynamicMethod. 
     It should print out its own name: "Dynamic Method". At the bottom of the file, call the method.
