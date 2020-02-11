@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body>
+    <header>
+        <% include ../partials/header %>
+    </header>
+    
+    <div>
+        <%if (songArray != null) { %>
+                    
+            <ul class="list-group text-dark">
+                <% for(var i = 0; i<songArray.length; i++){ %>
+                    <li class="list-group-item"><%= "Title of Song:  " + songArray[i].id + "               Date: " + songArray[i].songDate %></li>
+               <% } %>
+            </ul>
+       <% }  %>
+    </div>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+</body>
+</html>

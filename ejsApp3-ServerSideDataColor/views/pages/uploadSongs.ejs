@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../partials/head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main>
+        <div class="p-3 mb-2 bg-dark text-white">
+            <div class="jumbotron">
+                <h2 class="bg-success text-white">Here are your songs!</h2>
+
+                <%if (songArray != null) { %>
+                    
+                    <ul class="list-group text-dark">
+                        <% for(var i = 0; i<songArray.length; i++){ %>
+                            <li class="list-group-item"><%= "Title of Song:  " + songArray[i].id + "               Date: " + songArray[i].songDate %></li>
+                       <% } %>
+                    </ul>
+               <% }  %>
+            
+            </br>
+            <label class="bg-success text-white" for="song">Add New Song</label>
+            <input class="form-control" type="text" id="song" name="song"><br>
+            <label class="bg-success text-white" for="songDate">Year Released</label>
+            <input class="form-control" type="text" id="songDate" name="songDate"><br>
+            <button class="btn btn-primary  " onclick="updateURL();">Add another song </button>
+      
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+    <script type="text/javascript">
+        // our menu calls this page URL with no ?id= value,
+        // so code needs to check for that
+        // when user enters data, I append the data using the required ?id=
+        
+          function updateURL() {
+            // http://localhost:3000/uploadSongs
+            var myURL = (document.location).toString();
+            var n = myURL.indexOf("?");
+            myURL = myURL.substr(0, n); 
+            document.location = myURL + "?id=" + document.getElementById("song").value + 
+            "&songDate=" +  document.getElementById("songDate").value;
+        
+          }
+
+          
+        </script>
+        
+    
+</body>
+</html>
